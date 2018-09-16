@@ -43,7 +43,7 @@ class TwoWheelerVehicle(Vehicle):
     
     def __init__(self, model):
         self.default_initial_speed = 20
-        super().__init__(2, model, 40)  # for two wheeler vehicle
+        super().__init__(2, model, 40)  # for two wheeler vehicle,adding model name and max speed
 
     # If all two wheelers move with the double speed than given speed
     def move(self, speed):
@@ -58,7 +58,7 @@ class ThreeWheelerVehicle(Vehicle):
 
     def __init__(self, model):
         self.default_initial_speed = 20
-        super().__init__(3, model, 50)  # for three wheeler vehicle
+        super().__init__(3, model, 50)  # for three wheeler vehicle,adding model name and max speed
 
     # If all three wheelers move with the tripple speed than given speed
     def move(self, speed):
@@ -73,7 +73,7 @@ class FourWheelerVehicle(Vehicle):
 
     def __init__(self, model):
         self.default_initial_speed = 20
-        super().__init__(4, model, 60)  # for four wheeler vehicle
+        super().__init__(4, model, 60)  # for four wheeler vehicle,adding model name and max speed
 
     # If all four wheelers move with the four times speed than given speed
     def move(self, speed):
